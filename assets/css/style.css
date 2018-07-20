@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'koverwatchregular';
+    src: url('./fonts/koverwatch-webfont.woff2') format('woff2'),
+         url('./fonts/koverwatch-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 48px;
+}
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'koverwatchregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    color: #3d3d3d;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+.head-logo{
+    width: 70%;
+}
+.start-logo{
+    padding: 20px;
+    width: 10%;
+    height: auto;
+}
+#start-space{
+    text-align: center;
+}
+.game-button{
+    font-family: 'koverwatchregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    color: #00c3ff;
+    background-color: rgb(29, 61, 110);
+    border: solid 4px #00c3ff;
+    border-radius: 13px;
+}
+.game-button:hover{
+    box-shadow: 0px 0px 20px rgb(255, 160, 35);
+}
+.active-game-div{
+    /* background-color: rgb(29, 61, 110); */
+    width: 40%;
+    /* color: #ffffff; */
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+.win-loss-div{
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+.hero-image{
+    width: 70%;
+}
+.blank-space-div{
+    font-size: 70px;
+}
